@@ -1,0 +1,88 @@
+---
+title: ''
+---
+
+::: invite-card
+[Sorina Nagra]{style="font-family: 'Brush Script MT', cursive, var(--bs-body-font-family); font-size: 2em;"}
+
+Daughter of Sohan Singh and Jaswinder Kaur; Granddaughter of Gurdial Singh Nagra and Harbhajan Kaur Nagra; and \[Grandfather's Name\] and \[Grandmother's Name\]
+
+[&]{style="font-family: 'Brush Script MT', cursive, var(--bs-body-font-family); font-size: 1.5em;"}
+
+[Thomas Wood]{style="font-family: 'Brush Script MT', cursive, var(--bs-body-font-family); font-size: 2em;"}
+
+S/O Steven Wood and Dianne Wood; Grandson of Bill Fasullo and Beverly Fasullo; and James Wood and Margaret Wood
+
+Cordially invite you to join us in celebrating their wedding.
+:::
+
+[RSVP](rsvp.html){.btn .btn-outline-primary .btn role="button"}
+
+<br>
+
+## Please Save the Date
+
+**Wedding Date:** June 28th, 2024
+
+**RSVP by June 31st, 2024**
+
+[RSVP](rsvp.html){.btn .btn-outline-primary .btn role="button"}
+
+<br>
+
+## Schedule
+
+<div class="timeline-heading">
+
+<div style="display:flex; justify-content:space-between; align-items:baseline;">
+<h3>Wedding Events</h3> 
+<span>28 June, 2024</span>
+</div>
+</div>
+
+<div class="timeline-body">
+
+<div style="display:flex; justify-content:space-between; align-items:baseline;">
+
+Sikh Spiritual Centre Toronto 
+
+[9 Carrier Dr, Etobicoke](https://maps.app.goo.gl/rHNutTc8LW6pfikA8){target="_blank"}
+</div>
+
+-   **Milni (Introduction of Families):** 9:00 AM
+
+-   **Anand Karaj (Wedding Ceremony):** 10:00 AM
+</div>
+
+
+
+
+
+<div class="timeline-heading">
+<div style="display:flex; justify-content:space-between; align-items:baseline;">
+<h3>Reception</h3> 
+<span>28 June, 2024</span>
+</div>
+</div>
+
+<div class="timeline-body">
+
+<div style="display:flex; justify-content:space-between; align-items:baseline;">
+
+Hall 3, Grand Empire Banquet And Convention Centre 
+
+[100 Nexus Ave, Brampton](https://maps.app.goo.gl/SBVmV5BUPJidFjDA8){target="_blank"}
+</div>
+
+-   **Appetizers:** 12:00 PM
+
+-   **Main Course:** 2:30 PM
+</div>
+
+
+
+
+
+<br>
+
+We look forward to celebrating this joyous occasion with you.
