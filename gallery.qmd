@@ -1,0 +1,11 @@
+---
+title: ""
+lightbox:
+  match: auto
+  loop: true
+  css-class: "gallery"
+---
+
+![A Lovely Image](img/mv-1.png){group="wedding-gallery"}
+
+![Another Lovely Image](img/mv-2.png){group="wedding-gallery"}
