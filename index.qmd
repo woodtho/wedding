@@ -37,7 +37,8 @@ Cordially invite you to join us in celebrating their wedding.
 
 <div class="timeline-heading">
 <div style="display:flex; justify-content:space-between; align-items:baseline;">
-<h3>Wedding Events</h3>                               <span>28 June, 2024</span>
+<h3>Wedding Events</h3>                           
+<span>28 June, 2024</span>
 </div>
 </div>
 
@@ -58,7 +59,8 @@ Hall 3, Sikh Spiritual Centre Toronto
 </div>
 <div class="timeline-heading">
 <div style="display:flex; justify-content:space-between; align-items:baseline;">
-<h3>Reception</h3>                                    <span>28 June, 2024</span>
+<h3>Reception</h3>                             
+<span>28 June, 2024</span>
 </div>
 </div>
 
