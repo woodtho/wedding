@@ -20,10 +20,13 @@ suppressWarnings({
 # Print messages in formatted HTML
 cat("<div class='comments'>")
 for (i in 1:nrow(messages)) {
+  # Generate an ID for each message
+  message_id <- paste0("message-", i)
+  
   # Print the message to the couple with timestamp
   cat(
     paste0(
-      "<div class='message from-guest'>",
+      "<div class='message from-guest' id='", message_id, "'>",
       "<h4>",
       messages$name[i],
       " <span class='timestamp'>",
@@ -35,11 +38,12 @@ for (i in 1:nrow(messages)) {
       "</div>"
     )
   )
+  
   # Print the response from the couple with timestamp if it exists
   if (!is.na(messages$response[i]) && messages$response[i] != "") {
     cat(
       paste0(
-        "<div class='message from-couple'>",
+        "<div class='message from-couple' id='response-", message_id, "'>",
         "<h4>Sorina and Thomas <span class='timestamp'>",
         messages$response_time[i],
         "</span></h4>",
