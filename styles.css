@@ -582,3 +582,12 @@ footer {
     color: #adb5bd; /* Light grey color for timestamp */
     margin-left: 10px;
 }
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
