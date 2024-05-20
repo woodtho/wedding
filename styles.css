@@ -528,10 +528,12 @@ footer {
 }
 /* Styles for the comments section */
 .comments {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
+    max-height: 75vh;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
 }
 
 .message {
@@ -591,3 +593,11 @@ footer {
   margin-right: auto;
   width: 50%;
 }
+
+
+.collapsible {
+  margin-left: auto; /* Automatically adjust the left margin to push the button to the right */
+  display: block; /* Ensures the button behaves as a block element */
+  margin-top: 10px;
+}
+
