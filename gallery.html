@@ -150,13 +150,13 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/mv-1.png" class="lightbox" data-gallery="wedding-gallery" data-glightbox="description: .lightbox-desc-1" title="A Lovely Image"><img src="img/mv-1.png" class="img-fluid figure-img" alt="A Lovely Image"></a></p>
+<p><a href="img/mv-1.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="wedding-gallery" title="A Lovely Image"><img src="img/mv-1.png" class="img-fluid figure-img" alt="A Lovely Image"></a></p>
 <figcaption>A Lovely Image</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/mv-2.png" class="lightbox" data-gallery="wedding-gallery" data-glightbox="description: .lightbox-desc-2" title="Another Lovely Image"><img src="img/mv-2.png" class="img-fluid figure-img" alt="Another Lovely Image"></a></p>
+<p><a href="img/mv-2.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="wedding-gallery" title="Another Lovely Image"><img src="img/mv-2.png" class="img-fluid figure-img" alt="Another Lovely Image"></a></p>
 <figcaption>Another Lovely Image</figcaption>
 </figure>
 </div>
@@ -578,7 +578,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"skin":"gallery","selector":".lightbox","openEffect":"zoom","loop":true,"closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"loop":true,"openEffect":"zoom","closeEffect":"zoom","skin":"gallery","selector":".lightbox","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
