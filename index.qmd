@@ -2,10 +2,13 @@
 title: ''
 ---
 
+
 ::: invite-card
+![](img/line-top.png){style="max-width:50%" class="center"}
+
 [Sorina Nagra]{style="font-family: 'Brush Script MT', cursive, var(--bs-body-font-family); font-size: 2em;"}
 
-Daughter of Sohan Singh and Jaswinder Kaur; Granddaughter of Gurdial Singh Nagra and Harbhajan Kaur Nagra; and \[Grandfather's Name\] and \[Grandmother's Name\]
+Daughter of Sohan Singh and Jaswinder Kaur; and Granddaughter of Gurdial Singh Nagra and Harbhajan Kaur Nagra.
 
 [&]{style="font-family: 'Brush Script MT', cursive, var(--bs-body-font-family); font-size: 1.5em;"}
 
@@ -14,6 +17,8 @@ Daughter of Sohan Singh and Jaswinder Kaur; Granddaughter of Gurdial Singh Nagra
 S/O Steven Wood and Dianne Wood; Grandson of Bill Fasullo and Beverly Fasullo; and James Wood and Margaret Wood
 
 Cordially invite you to join us in celebrating their wedding.
+
+![](img/line-bottom.png){style="max-width:50%" class="center"}
 :::
 
 [RSVP](rsvp.html){.btn .btn-outline-primary .btn role="button"}
@@ -22,13 +27,13 @@ Cordially invite you to join us in celebrating their wedding.
 
 ## Please Save the Date
 
+
 **Wedding Date:** June 28th, 2024
 
-**RSVP by June 31st, 2024**
+**RSVP by June 31st, 2024** 
 
 [RSVP](rsvp.html){.btn .btn-outline-primary .btn role="button"}
 
-<br>
 
 ## Schedule
 
@@ -46,8 +51,9 @@ Cordially invite you to join us in celebrating their wedding.
 
 Sikh Spiritual Centre Toronto 
 
-[9 Carrier Dr, Etobicoke](https://maps.app.goo.gl/rHNutTc8LW6pfikA8){target="_blank"}
 </div>
+
+[9 Carrier Dr, Etobicoke](https://maps.app.goo.gl/rHNutTc8LW6pfikA8){target="_blank"}
 
 -   **Milni (Introduction of Families):** 9:00 AM
 
@@ -71,8 +77,9 @@ Sikh Spiritual Centre Toronto
 
 Hall 3, Grand Empire Banquet And Convention Centre 
 
-[100 Nexus Ave, Brampton](https://maps.app.goo.gl/SBVmV5BUPJidFjDA8){target="_blank"}
 </div>
+
+[100 Nexus Ave, Brampton](https://maps.app.goo.gl/SBVmV5BUPJidFjDA8){target="_blank"}
 
 -   **Appetizers:** 12:00 PM
 

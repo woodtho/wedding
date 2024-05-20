@@ -1,10 +1,14 @@
 project:
   type: website
+  
 
 website:
+
   title: "Sorina & Thomas' Wedding"
-  navbar:
-    left:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
       - href: index.qmd
         text: Invitation
       - href: about.qmd
@@ -18,6 +22,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+
 
 editor: visual
 
