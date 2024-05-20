@@ -1,8 +1,6 @@
 ---
-title: ""
+title: "Messages to the Bride and Groom"
 ---
-
-# Messages to the Bride and Groom
 
 ```{r}
 #| echo: false
@@ -21,7 +19,7 @@ suppressWarnings({
 cat("<div class='comments'>")
 for (i in 1:nrow(messages)) {
   # Generate an ID for each message
-  message_id <- paste0("message-", i)
+  message_id <- paste0("message-", messages$id[i])
   
   # Print the message to the couple with timestamp
   cat(
@@ -55,5 +53,32 @@ for (i in 1:nrow(messages)) {
     )
   }
 }
+
 cat("</div>")
 ```
+
+
+<button type="button" class="btn btn-outline-primary collapsible">Send Message?</button>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEqv0NdWgVAVzNZBMGpf8zWksuMzkRVfJeHlZrShS_f1Rz8Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="display: none;">
+
+Loading…
+
+</iframe>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
