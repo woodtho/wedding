@@ -15,7 +15,7 @@ suppressWarnings({
     # Read CSV file
     messages <- read.csv("www/messages.csv")
   })
-})
+}) 
 
 # Print messages in formatted HTML
 cat("<div class='comments'>")
@@ -36,7 +36,7 @@ for (i in 1:nrow(messages)) {
     )
   )
   # Print the response from the couple with timestamp if it exists
-  if (!is.na(messages$response[i])) {
+  if (!is.na(messages$response[i]) && messages$response[i] != "") {
     cat(
       paste0(
         "<div class='message from-couple'>",
