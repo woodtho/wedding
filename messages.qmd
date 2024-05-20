@@ -12,11 +12,9 @@ title: ""
 
 suppressWarnings({
   suppressMessages({
-  # Load necessary library
-library(readr)
 
 # Read CSV file
-messages <- read_csv("www/messages.csv")
+messages <- read.csv("www/messages.csv")
 })
 })
 
@@ -31,7 +29,7 @@ for(i in 1:nrow(messages)) {
   # Print the response from the couple with timestamp if it exists
   if (!is.na(messages$response[i])) {
     cat(paste0("<div class='message from-couple'>",
-               "<h4>Bride and Groom <span class='timestamp'>", messages$response_time[i], "</span></h4>",
+               "<h4>Sorina and Thomas <span class='timestamp'>", messages$response_time[i], "</span></h4>",
                "<p>", messages$response[i], "</p>",
                "</div>"))
   }
