@@ -79,6 +79,8 @@ Loading…
             } else {
                 content.style.display = "block";
             }
+            
+            content.scrollIntoView();
         });
     }
 
