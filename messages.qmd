@@ -12,26 +12,43 @@ title: ""
 
 suppressWarnings({
   suppressMessages({
-
-# Read CSV file
-messages <- read.csv("www/messages.csv")
-})
+    # Read CSV file
+    messages <- read.csv("www/messages.csv")
+  })
 })
 
 # Print messages in formatted HTML
 cat("<div class='comments'>")
-for(i in 1:nrow(messages)) {
+for (i in 1:nrow(messages)) {
   # Print the message to the couple with timestamp
-  cat(paste0("<div class='message from-guest'>",
-             "<h4>", messages$name[i], " <span class='timestamp'>", messages$time[i], "</span></h4>",
-             "<p>", messages$message[i], "</p>",
-             "</div>"))
+  cat(
+    paste0(
+      "<div class='message from-guest'>",
+      "<h4>",
+      messages$name[i],
+      " <span class='timestamp'>",
+      messages$time[i],
+      "</span></h4>",
+      "<p>",
+      messages$message[i],
+      "</p>",
+      "</div>"
+    )
+  )
   # Print the response from the couple with timestamp if it exists
   if (!is.na(messages$response[i])) {
-    cat(paste0("<div class='message from-couple'>",
-               "<h4>Sorina and Thomas <span class='timestamp'>", messages$response_time[i], "</span></h4>",
-               "<p>", messages$response[i], "</p>",
-               "</div>"))
+    cat(
+      paste0(
+        "<div class='message from-couple'>",
+        "<h4>Sorina and Thomas <span class='timestamp'>",
+        messages$response_time[i],
+        "</span></h4>",
+        "<p>",
+        messages$response[i],
+        "</p>",
+        "</div>"
+      )
+    )
   }
 }
 cat("</div>")

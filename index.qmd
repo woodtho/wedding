@@ -2,7 +2,6 @@
 title: ''
 ---
 
-
 ::: invite-card
 ![](img/line-top.png){style="max-width:50%" class="center"}
 
@@ -49,7 +48,7 @@ Cordially invite you to join us in celebrating their wedding.
 
 <div style="display:flex; justify-content:space-between; align-items:baseline;">
 
-Sikh Spiritual Centre Toronto 
+Hall 3, Sikh Spiritual Centre Toronto 
 
 </div>
 
@@ -59,9 +58,6 @@ Sikh Spiritual Centre Toronto
 
 -   **Anand Karaj (Wedding Ceremony):** 10:00 AM
 </div>
-
-
-
 
 
 <div class="timeline-heading">
@@ -75,7 +71,7 @@ Sikh Spiritual Centre Toronto
 
 <div style="display:flex; justify-content:space-between; align-items:baseline;">
 
-Hall 3, Grand Empire Banquet And Convention Centre 
+Grand Empire Banquet And Convention Centre 
 
 </div>
 
@@ -85,11 +81,6 @@ Hall 3, Grand Empire Banquet And Convention Centre
 
 -   **Main Course:** 2:30 PM
 </div>
-
-
-
-
-
 <br>
 
 We look forward to celebrating this joyous occasion with you.

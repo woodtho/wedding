@@ -2,8 +2,6 @@
 title: ""
 ---
 
-::: page-container
-
 # What To Expect At a Sikh Wedding
 
 Here are a few things to keep in mind if you haven’t attended a Sikh Wedding.
@@ -16,13 +14,18 @@ Here are a few things to keep in mind if you haven’t attended a Sikh Wedding.
 
     -   It is a warm and welcoming ceremony that signifies the union of two families.
 
-2.  **Anand Karaj (Wedding Ceremony):**
+2.  **Langar (Community Meal):**
+
+    -   Before the ceremony, a vegetarian meal will be served.
+    -   Langar is a symbol of equality and community, so everyone sits together on the floor to eat.
+
+3.  **Anand Karaj (Wedding Ceremony):**
 
     -   This is the main wedding ceremony held at the Gurdwara (Sikh temple).
 
     -   The ceremony involves singing of hymns, reading from the Guru Granth Sahib (Sikh holy book), and the couple walking around the holy book four times.
 
-3.  **Reception:**
+4.  **Reception:**
 
     -   The reception will follow the Anand Karaj, featuring music, dance, and a celebratory meal.
 
@@ -41,6 +44,3 @@ Here are a few things to keep in mind if you haven’t attended a Sikh Wedding.
     -   **Men:** Traditional Indian attire or formal Western attire.
 
     -   **Women:** Traditional Indian attire such as a lehenga, saree, or evening gown.
-    
-:::
-
