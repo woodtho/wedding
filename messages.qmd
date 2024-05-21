@@ -58,7 +58,7 @@ cat("</div>")
 ```
 
 
-<button type="button" class="btn btn-outline-primary collapsible">Send Message?</button>
+<button type="button" class="btn btn-outline-primary collapsible">Send a Message?</button>
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEqv0NdWgVAVzNZBMGpf8zWksuMzkRVfJeHlZrShS_f1Rz8Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="display: none;">
 
