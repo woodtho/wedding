@@ -3,25 +3,34 @@
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
   --primary-font: "Work Sans", sans-serif;
   --secondary-font: "Sacramento", cursive;
+  --accent-color: #007bff; /* Soft blue accent color */
+  --background-color: #ffffff; /* White background color */
+  --primary-color: #000000; /* Dark Grey color for primary text */
 }
 
 /* Global Resets */
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box; /* Ensures consistent padding and border box sizing */
 }
 
 body {
   font-size: 1.2rem;
   font-family: var(--primary-font);
+  background-color: var(--background-color); /* Light cream background */
+  color: var(--primary-color); /* Brown color for primary text */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
 }
 
 /* Iframe Styling */
 iframe {
-  display: block;  /* iframes are inline by default */
-  border: none;    /* Reset default border */
-  height: 80vh;    /* Viewport-relative units */
+  box-shadow: none;
+  display: block; /* iframes are inline by default */
+  border: none; /* Reset default border */
+  height: 80vh; /* Viewport-relative units */
   width: 100%;
-  overflow: hidden;  /* Prevents scrollbars from appearing */
+  overflow: hidden; /* Prevents scrollbars from appearing */
 }
 
 /* Media Queries */
@@ -53,17 +62,19 @@ iframe {
   }
 }
 
-/* Comments Section */
+/* Invite Card Styling */
 .invite-card {
-  background-color: #ffffee; /* Light yellow card background symbolizing new beginnings *//
+  background-color: #ffffee; /* Light yellow card background symbolizing new beginnings */
   border-radius: 10px; /* Rounded corners */
   padding: 20px;
   margin-bottom: 20px;
+  box-shadow: var(--shadow); /* Adds shadow to card */
 }
 
 .invite-card h3 {
   font-size: 1.5em; /* Card title font size */
   color: #495057; /* Dark grey color */
+  font-family: var(--secondary-font); /* Use secondary font for titles */
 }
 
 .invite-card p {
@@ -79,6 +90,7 @@ iframe {
   max-height: 75vh;
   background-color: #f1f1f1;
   overflow-y: scroll;
+  box-shadow: var(--shadow); /* Adds shadow to comments section */
 }
 
 .message {
@@ -88,11 +100,12 @@ iframe {
   max-width: 70%;
   position: relative;
   clear: both;
+  box-shadow: var(--shadow); /* Adds shadow to messages */
 }
 
 .message.from-guest {
-  background-color: #007bff; /* Blue background */
-  color: #ffffff;           /* White text */
+  background-color: var(--accent-color); /* Pink background */
+  color: #ffffff; /* White text */
   text-align: right;
   float: right;
 }
@@ -104,7 +117,7 @@ iframe {
 
 .message.from-couple {
   background-color: #ffffff; /* White background */
-  color: #495057;            /* Dark grey text */
+  color: #495057; /* Dark grey text */
   text-align: left;
   float: left;
   border: 1px solid #dee2e6; /* Light grey border */
@@ -140,7 +153,44 @@ iframe {
 
 /* Collapsible Button */
 .collapsible {
-  margin-left: auto;  /* Automatically adjust the left margin to push the button to the right */
-  display: block;     /* Ensures the button behaves as a block element */
+  margin-left: auto; /* Automatically adjust the left margin to push the button to the right */
+  display: block; /* Ensures the button behaves as a block element */
   margin-top: 10px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  background-color: var(--primary-color); /* Brown background color for navbar */
+  box-shadow: var(--shadow); /* Adds shadow to navbar */
+}
+
+.navbar a {
+  color: #ffffff; /* White text color for navbar links */
+  text-transform: uppercase; /* Uppercase text for links */
+  font-family: var(--secondary-font); /* Use secondary font for navbar links */
+  padding: 10px 15px; /* Padding for navbar links */
+}
+
+.navbar a:hover {
+  background-color: var(--accent-color); /* Pink background on hover */
+  color: #ffffff; /* Ensures text remains white on hover */
+  text-decoration: none; /* Removes underline from links on hover */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: var(--primary-color); /* Brown background color for footer */
+  color: #ffffff; /* White text color for footer */
+  padding: 20px;
+  text-align: center;
+  font-family: var(--primary-font); /* Use primary font for footer text */
+}
+
+.footer a {
+  color: var(--accent-color); /* Pink color for footer links */
+  text-decoration: none; /* Removes underline from footer links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Adds underline to footer links on hover */
 }
