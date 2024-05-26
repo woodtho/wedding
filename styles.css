@@ -106,7 +106,7 @@ iframe {
 .message.from-guest {
   background-color: var(--accent-color); /* Pink background */
   color: #ffffff; /* White text */
-  text-align: right;
+  text-align: left;
   float: right;
 }
 
@@ -124,6 +124,7 @@ iframe {
 }
 
 .message.from-couple h4 {
+  text-align: left;
   font-size: 1em;
   margin-bottom: 5px;
 }
@@ -133,11 +134,14 @@ iframe {
 }
 
 .message h4 {
+  font-weight: bold;
+  text-align: right;
   margin: 0 0 5px 0;
   font-size: 1.2em;
 }
 
 .timestamp {
+  font-weight: normal;
   font-size: 0.8em;
   color: #adb5bd; /* Light grey color for timestamp */
   margin-left: 10px;
